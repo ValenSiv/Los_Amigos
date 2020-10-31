@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-size: 120%;
+  background-color: #eef0ff;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(34, 36, 51, 0.952)), to(rgba(22, 46, 58, 0.767))), url("https://cerrajero.me/wp-content/uploads/2019/12/10d.jpg");
+  background-image: linear-gradient(to right, rgba(34, 36, 51, 0.952), rgba(22, 46, 58, 0.767)), url("https://cerrajero.me/wp-content/uploads/2019/12/10d.jpg");
+}
+
+.menuNavegacion .linksMenu {
+  padding: 0 10px 0 10px;
+  font-size: 120%;
+  color: black;
+}
+
+.menuNavegacion .linksMenu:hover {
+  color: #535353;
+}
+
+.menuNavegacion .navbar {
+  background-color: white;
+}
+
+.menuNavegacion .logoMenu {
+  margin-bottom: 5px;
+}
+
+.pPrincipal .pPrincipal__logo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pPrincipal .pPrincipal__losAmigos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 450%;
+}
+
+.pPrincipal .pPrincipal__cerrajeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 155%;
+  letter-spacing: 8px;
+  color: #1f62dd;
+}
+
+.pLocal .lugar {
+  position: absolute;
+  left: 70%;
+  -webkit-transform: translate(0%, -300%);
+          transform: translate(0%, -300%);
+  z-index: 10;
+  font-weight: 100;
+  background-color: rgba(255, 255, 255, 0.171);
+  border-radius: 15px;
+  color: white;
+  padding: 10px;
+}
+
+.pLocal .horarios {
+  position: absolute;
+  right: 70%;
+  -webkit-transform: translate(0%, -300%);
+          transform: translate(0%, -300%);
+  z-index: 10;
+  font-weight: 100;
+  background-color: rgba(128, 128, 128, 0.514);
+  border-radius: 15px;
+}
+
+.pServicios .tituloServicios {
+  padding: 10px 0px 30px 0px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 100;
+}
+
+.pServicios .containerServicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 14px;
+}
+
+.pProductos .tituloProductos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0px 0px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-weight: 100;
+}
+
+.pProductos .h4Productos {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: 100;
+}
+
+.pProductos table {
+  border-radius: 15px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.pProductos td {
+  background-color: white;
+}
+
+.pProductos .lista {
+  list-style: inside;
+  list-style-type: none;
+  font-size: 15px;
+}
+
+.pProductos .margin0 {
+  margin-right: 0px;
+}
+
+.pContacto .pContacto__titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0px 0px 0px;
+  color: white;
+  font-weight: 100;
+}
+
+.pContacto .pContacto__form form {
+  width: 300px;
+  padding: 16px;
+  border-radius: 15px;
+  margin: auto;
+  background-color: #f3f3f3;
+}
+
+.pContacto .pContacto__form form label {
+  width: 72px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.pContacto .pContacto__form form input[type="text"],
+.pContacto .pContacto__form form input[type="email"] {
+  width: 180px;
+  padding: 3px 10px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  background-color: #00000036;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+.pContacto .pContacto__form form input[type="submit"] {
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 32px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: block;
+  color: #fff;
+  background-color: #0d295f;
+}
+
+.pContacto .pContacto__form form input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.pContacto .pContacto__form textarea {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  background-color: #00000036;
+  margin: 8px 0;
+  resize: none;
+  display: block;
+}
+
+.footer1 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  background-color: #0c234e;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  background-repeat: no-repeat;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.footer1 .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 0px 10px 0px;
+}
+
+.footer1 .redesSociales {
+  color: white;
+  font-size: 120%;
+  font-weight: 100;
+}
+
+@media (max-width: 500px) {
+  .footer1 {
+    position: relative;
+  }
+  .tituloProductos {
+    padding: 0px;
+  }
+  .menu_nav {
+    font-size: 14px;
+  }
+  .menu {
+    padding: 20px 10px 30px 0px;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
