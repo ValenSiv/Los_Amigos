@@ -123,7 +123,7 @@ body {
 .pProductos .h4Productos {
   color: white;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 0px;
   font-weight: 100;
 }
 
@@ -140,11 +140,7 @@ body {
 .pProductos .lista {
   list-style: inside;
   list-style-type: none;
-  font-size: 15px;
-}
-
-.pProductos .margin0 {
-  margin-right: 0px;
+  font-size: 14px;
 }
 
 .pContacto .pContacto__titulo {
@@ -240,18 +236,39 @@ body {
   font-weight: 100;
 }
 
+.footer1 a {
+  color: white;
+}
+
 @media (max-width: 500px) {
   .footer1 {
     position: relative;
+    z-index: 10;
+    padding-top: 100px;
   }
   .tituloProductos {
     padding: 0px;
   }
   .menu_nav {
-    font-size: 14px;
+    font-size: 0.8rem;
   }
-  .menu {
-    padding: 20px 10px 30px 0px;
+  .containerServicios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .paddingCard {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 20rem !important;
+  }
+  .nav {
+    font-size: 0.8rem;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
