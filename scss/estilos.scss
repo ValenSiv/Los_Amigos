@@ -97,7 +97,7 @@ body {
     .h4Productos {
         color: white;
         text-align: center;
-        padding-top: 15px;
+        padding-top: 0px;
         font-weight: 100;
     }
     table {
@@ -111,10 +111,7 @@ body {
     .lista {
         list-style: inside;
         list-style-type: none;
-        font-size: 15px;
-    }
-    .margin0 {
-        margin-right: 0px;
+        font-size: 14px;
     }
 }
 
@@ -199,21 +196,35 @@ body {
         font-size: 120%;
         font-weight: 100;
     }
+    a {
+        color: white;
+    }
 }
 
 // Aca va a ir las media queries
 @media (max-width: 500px) {
     .footer1 {
         position: relative;
-        z-index: 2;
+        z-index: 10;
+        padding-top: 100px;
     }
     .tituloProductos {
         padding: 0px;
     }
     .menu_nav {
-        font-size: 14px;
+        font-size: 0.8rem;
     }
-    .menu {
-        padding: 20px 10px 30px 0px;
+    .containerServicios {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .paddingCard {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 20rem!important;
+    }
+    .nav {
+        font-size: 0.8rem;
     }
 }
