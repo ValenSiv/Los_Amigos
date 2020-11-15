@@ -6,30 +6,15 @@
 body {
   background-size: 120%;
   background-color: #eef0ff;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(34, 36, 51, 0.952)), to(rgba(22, 46, 58, 0.767))), url("https://cerrajero.me/wp-content/uploads/2019/12/10d.jpg");
-  background-image: linear-gradient(to right, rgba(34, 36, 51, 0.952), rgba(22, 46, 58, 0.767)), url("https://cerrajero.me/wp-content/uploads/2019/12/10d.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(58, 69, 131, 0.952)), to(rgba(113, 118, 121, 0.767))), url("https://cerrajero.me/wp-content/uploads/2019/12/10d.jpg");
+  background-image: linear-gradient(to right, rgba(58, 69, 131, 0.952), rgba(113, 118, 121, 0.767)), url("https://cerrajero.me/wp-content/uploads/2019/12/10d.jpg");
 }
 
-.menuNavegacion .linksMenu {
-  padding: 0 10px 0 10px;
-  font-size: 120%;
-  color: black;
-}
-
-.menuNavegacion .linksMenu:hover {
-  color: #535353;
-}
-
-.menuNavegacion .navbar {
-  background-color: white;
-}
-
-.menuNavegacion .logoMenu {
-  margin-bottom: 5px;
+.numeroUrgencia {
+  color: gray;
 }
 
 .pPrincipal .pPrincipal__logo {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,7 +32,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   color: white;
-  font-size: 450%;
+  font-size: 5em;
 }
 
 .pPrincipal .pPrincipal__cerrajeria {
@@ -57,9 +42,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 155%;
+  font-size: 2em;
   letter-spacing: 8px;
-  color: #1f62dd;
+  color: #d1d0d0;
 }
 
 .pLocal .lugar {
@@ -240,17 +225,21 @@ body {
   color: white;
 }
 
-@media (max-width: 500px) {
-  .footer1 {
-    position: relative;
-    z-index: 10;
-    padding-top: 100px;
+@media (max-width: 993px) {
+  .h1yP__Inicio {
+    font-size: 85%;
+  }
+  .logo__Inicio {
+    width: 70%;
+  }
+  body {
+    background-color: #9bbeff;
+  }
+  .numeroUrgencia {
+    display: none;
   }
   .tituloProductos {
     padding: 0px;
-  }
-  .menu_nav {
-    font-size: 0.8rem;
   }
   .containerServicios {
     display: -webkit-box;
@@ -267,8 +256,10 @@ body {
     padding-bottom: 10px;
     width: 20rem !important;
   }
-  .nav {
-    font-size: 0.8rem;
+  .footer1 {
+    position: relative;
+    z-index: 10;
+    padding-top: 100px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
