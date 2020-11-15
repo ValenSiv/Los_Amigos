@@ -6,29 +6,15 @@
 body {
     background-size: 120%;
     background-color: #eef0ff;
-    background-image: linear-gradient(to right, rgba(34, 36, 51, 0.952), rgba(22, 46, 58, 0.767)), url("https://cerrajero.me/wp-content/uploads/2019/12/10d.jpg");
+    background-image: linear-gradient(to right, rgba(58, 69, 131, 0.952), rgba(113, 118, 121, 0.767)), url("https://cerrajero.me/wp-content/uploads/2019/12/10d.jpg");
 }
 
-.menuNavegacion {
-    .linksMenu {
-        padding: 0 10px 0 10px;
-        font-size: 120%;
-        color: black;
-    }
-    .linksMenu:hover {
-        color: rgb(83, 83, 83);
-    }
-    .navbar {
-        background-color: white;
-    }
-    .logoMenu {
-        margin-bottom: 5px;
-    }
+.numeroUrgencia {
+    color: gray;
 }
 
 .pPrincipal {
     .pPrincipal__logo {
-        width: 100%;
         display: flex;
         margin-top: 2%;
         justify-content: center;
@@ -37,14 +23,14 @@ body {
         display: flex;
         justify-content: center;
         color: rgb(255, 255, 255);
-        font-size: 450%;
+        font-size: 5em;
     }
     .pPrincipal__cerrajeria {
         display: flex;
         justify-content: center;
-        font-size: 155%;
+        font-size: 2em;
         letter-spacing: 8px;
-        color: rgb(31, 98, 221);
+        color: rgb(209, 208, 208);
     }
 }
 
@@ -202,17 +188,21 @@ body {
 }
 
 // Aca va a ir las media queries
-@media (max-width: 500px) {
-    .footer1 {
-        position: relative;
-        z-index: 10;
-        padding-top: 100px;
+@media (max-width: 993px) {
+    .h1yP__Inicio {
+        font-size: 85%;
+    }
+    .logo__Inicio {
+        width: 70%;
+    }
+    body {
+        background-color: rgb(155, 190, 255);
+    }
+    .numeroUrgencia {
+        display: none;
     }
     .tituloProductos {
         padding: 0px;
-    }
-    .menu_nav {
-        font-size: 0.8rem;
     }
     .containerServicios {
         display: flex;
@@ -224,7 +214,9 @@ body {
         padding-bottom: 10px;
         width: 20rem!important;
     }
-    .nav {
-        font-size: 0.8rem;
+    .footer1 {
+        position: relative;
+        z-index: 10;
+        padding-top: 100px;
     }
 }
