@@ -44,31 +44,19 @@ body {
           justify-content: center;
   font-size: 2em;
   letter-spacing: 8px;
-  color: #d1d0d0;
+  color: #fdfdfd;
 }
 
-.pLocal .lugar {
-  position: absolute;
-  left: 70%;
-  -webkit-transform: translate(0%, -300%);
-          transform: translate(0%, -300%);
-  z-index: 10;
-  font-weight: 100;
-  background-color: rgba(255, 255, 255, 0.171);
-  border-radius: 15px;
+.pLocal .tituloLocal {
+  padding: 10px 0px 30px 0px;
   color: white;
-  padding: 10px;
-}
-
-.pLocal .horarios {
-  position: absolute;
-  right: 70%;
-  -webkit-transform: translate(0%, -300%);
-          transform: translate(0%, -300%);
-  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-weight: 100;
-  background-color: rgba(128, 128, 128, 0.514);
-  border-radius: 15px;
 }
 
 .pServicios .tituloServicios {
@@ -215,28 +203,38 @@ body {
   padding: 0px 0px 10px 0px;
 }
 
-.footer1 .redesSociales {
-  color: white;
-  font-size: 120%;
-  font-weight: 100;
-}
-
 .footer1 a {
   color: white;
 }
 
+.footer1 .redesSociales {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 @media (max-width: 993px) {
   .h1yP__Inicio {
-    font-size: 85%;
+    font-size: 65%;
   }
   .logo__Inicio {
     width: 70%;
+    height: 70%;
   }
   body {
     background-color: #9bbeff;
   }
   .numeroUrgencia {
     display: none;
+  }
+  .containerLocal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .tituloProductos {
     padding: 0px;
@@ -260,6 +258,11 @@ body {
     position: relative;
     z-index: 10;
     padding-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

@@ -30,30 +30,17 @@ body {
         justify-content: center;
         font-size: 2em;
         letter-spacing: 8px;
-        color: rgb(209, 208, 208);
+        color: rgb(253, 253, 253);
     }
 }
 
 .pLocal {
-    .lugar {
-        position: absolute;
-        left: 70%;
-        transform: translate(-0%, -300%);
-        z-index: 10;
-        font-weight: 100;
-        background-color: rgba(255, 255, 255, 0.171);
-        border-radius: 15px;
+    .tituloLocal {
+        padding: 10px 0px 30px 0px;
         color: rgb(255, 255, 255);
-        padding: 10px;
-    }
-    .horarios {
-        position: absolute;
-        right: 70%;
-        transform: translate(-0%, -300%);
-        z-index: 10;
+        display: flex;
+        justify-content: center;
         font-weight: 100;
-        background-color: rgba(128, 128, 128, 0.514);
-        border-radius: 15px;
     }
 }
 
@@ -177,29 +164,33 @@ body {
         justify-content: center;
         padding: 0px 0px 10px 0px;
     }
-    .redesSociales {
-        color: white;
-        font-size: 120%;
-        font-weight: 100;
-    }
     a {
         color: white;
     }
+    .redesSociales {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
 }
 
-// Aca va a ir las media queries
 @media (max-width: 993px) {
     .h1yP__Inicio {
-        font-size: 85%;
+        font-size: 65%;
     }
     .logo__Inicio {
         width: 70%;
+        height: 70%;
     }
     body {
         background-color: rgb(155, 190, 255);
     }
     .numeroUrgencia {
         display: none;
+    }
+    .containerLocal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .tituloProductos {
         padding: 0px;
@@ -218,5 +209,7 @@ body {
         position: relative;
         z-index: 10;
         padding-top: 100px;
+        display: flex;
+        justify-content: space-around;
     }
 }

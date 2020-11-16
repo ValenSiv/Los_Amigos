@@ -7,17 +7,19 @@
     <title>Donde trabajamos | Los Amigos</title>
     <link rel="icon" type="image/png" href="img/logo3.png">
 
-    <link type="text/css" rel="stylesheet" href="css/estilos1.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="scss/estilos.css">
     <link rel="stylesheet" type="text/css" href="scss/estilos.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="img/logo3.png" width="35" class="d-inline-block align-top" alt="">Los Amigos
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,17 +30,17 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
                 <ul class="nav navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="lugardetrabajo.html">Local</a>
+                        <a class="nav-link" href="lugardetrabajo.html">Local </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="servicios.html">Servicios</a>
+                        <a class="nav-link" href="productos.html">Productos </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="productos.html">Productos</a>
+                        <a class="nav-link" href="servicios.html">Servicios </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contacto.html">Contacto</a>
@@ -47,72 +49,71 @@
 
             </div>
             <div class="numeroUrgencia">
-                <h6>Número de Urgencia: 2317584329</h6>
+                <h6>Teléfono de Urgencias: (+54) 2317-418054</h6>
             </div>
         </nav>
     </header>
 
-    <div class="pLocal">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/FONDO2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <div class="horarios">
-                            <h2>Horarios:</h2>
-                            <h5>Lunes a viernes: 8:00 a 12:00 y de 15:00 a 19:00</h5>
-                            <h5>Sabado: 8:00 a 12:00</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/FONDO1(1).jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <div class="lugar">
-                            <h2>Ubicacion:</h2>
-                            <h4>Libertad 611</h4>
-                            <h5>(Entre Cavallari y Tucuman)</h5>
-                        </div>
+    <main class="pLocal">
+
+        <div>
+            <h2 class="tituloLocal">UBICACIÓN</h2>
+        </div>
+
+        <div class="col justify-content-center containerLocal d-flex">
+
+            <div class="col-md-3 paddingCard">
+                <div class="card">
+                    <img class="card-img-top" src="img/fotohorario.jpg" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Horarios</h4>
+                        <p class="card-text">Lunes a viernes: 8:00hs a 12:00hs / 16:00hs a 20:00hs | Sábado: 8:00hs a 12:30hs</p>
+
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Siguiente</span>
-            </a>
+
+            <div class="col-md-3 paddingCard">
+                <div class="card">
+                    <img src="img/local.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Dirección</h5>
+                            <p class="card-text">Libertad 611 </p>
+                            <p class="card-text">9 de Julio (Bs.As)</p>
+                    </div>
+                </div>
+            </div>
+
+            <iframe class="col-md-3" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d574.5732389211158!2d-60.882892546074935!3d-35.44793450329729!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bf0dc06b4e390b%3A0x52b4cc58fb9b462!2sLibertad%20611%2C%20B6500EVG%209%20de%20Julio%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1605487173368!5m2!1ses-419!2sar"
+                width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
-    </div>
+
+    </main>
 
     <div class="footer1">
         <footer>
-            <div class="links">
 
+            <div class="links">
                 <div>
                     <a href="https://www.instagram.com/losamigoscerrajeria/ " target="_blank ">
-                        <img src="img/pngegg (1).png" width="15%">
+                        <i class="fa fa-instagram" style="font-size:24px;color:white"></i>
                     </a>
-
                 </div>
-                <h6 class="redesSociales">REDES SOCIALES</h6>
+
+                <h6 class="redesSociales">¡Seguinos!</h6>
 
                 <div>
                     <a href="https://www.facebook.com/losamigoscerrajeria/ " target="_blank ">
-                        <img src="img/pngegg (2).png" width="15%">
+                        <i class="fa fa-facebook" style="font-size:24px;color:white"></i>
                     </a>
                 </div>
-
             </div>
+
         </footer>
     </div>
 
-
-
-
 </body>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
